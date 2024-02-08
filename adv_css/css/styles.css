@@ -1,0 +1,88 @@
+body {
+    background-color: #C28FC7;
+}
+
+#container {
+    background-color: #f7c9d1;
+    padding: 20px;
+    width: 75%;
+    margin: 0 auto;
+    border: 20px solid #9b4ea7;
+    border-style: ridge;
+
+}
+
+header h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #373066;
+    text-shadow: 2px 2px 5px #000;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #373066;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: #373066;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+main img {
+    display: block;
+    margin: 5% auto;
+    width: 80%;
+}
+
+main p {
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #373066;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #373066;
+}
+
+main h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #373066;
+}
+main ul {
+    text-align: center;
+    background-color: #f7c9d1;
+    padding: 20px;
+    width: 20%;
+    margin: 0 auto;
+    border: 10px solid #9b4ea7;
+    border-style: groove;
+}
