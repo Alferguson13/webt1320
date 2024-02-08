@@ -135,6 +135,11 @@ h3 {
     display: inline-block;
 }
 
+.col li a:hover {
+    color: #ffe8e6;
+    text-decoration: none;
+}
+
 .col li a {
     color: #9b4ea7;
     margin-right: 10px;
