@@ -79,6 +79,12 @@ header h1 {
      border: 8px inset #9b4ea7;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
 p {
     padding: auto;
     text-align: center;
@@ -89,7 +95,7 @@ p {
 }
 
 a {
-    color: #9b4ea7;
+    color: #ffe8e6;
     text-decoration: none;
     font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -97,7 +103,7 @@ a {
 }
 
 a:hover {
-    color: #ffe8e6;
+    color: #48227F;
     text-decoration: none;
 }
 
@@ -173,6 +179,18 @@ footer {
 hr {
     width: 95%;
 }
+
+.button {
+    background-image: linear-gradient(90deg, #C28FC7,#FA6976,#F9A873);
+    border: 2px solid #48227F;
+    border-radius: 50px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+  
 
 /* tablet styles */
 
