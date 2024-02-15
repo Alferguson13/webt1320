@@ -5,4 +5,5 @@
      <li><a href="html5_intro_css/index.html" target="_blank">Html5 and intro to css</a></li>
     <li><a href="advanced_css/index.html" target="_blank">advanced css</a></li>
     <li><a href="adv_css/index.html" target="_blank">adv css</a></li>
+    <li><a href="responsive_design/index.html" target="_blank">adv css</a></li>
  </ul>
