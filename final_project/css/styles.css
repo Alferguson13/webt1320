@@ -300,4 +300,20 @@ hr {
         .col li a {
             font-size: 20px;
         }
+
+        main img {
+            display: block;
+            margin: 0 auto;
+            width: 50%;
+            border: none;
+        }
+    
+        body img {
+            display: block;
+            margin: 0 auto;
+            width: 70%;
+            border: none;
+        }
     }
+
+   
