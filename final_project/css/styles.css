@@ -85,7 +85,7 @@ header h1 {
  main img {
     display: block;
     margin: 0 auto;
-    width: 80%;
+    width: 30%;
     border: none;
 }
 
@@ -224,7 +224,7 @@ hr {
         display: flex;
     }
     main img{
-        width: 50%;
+        width: 30%;
         margin: 30px auto;
         border: none;
     }
@@ -304,13 +304,13 @@ hr {
         main img {
             display: block;
             margin: 0 auto;
-            width: 50%;
+            width: 30%;
             border: none;
         }
     
         body img {
             display: block;
-            margin: 0 auto;
+            padding 20px
             width: 70%;
             border: none;
         }
