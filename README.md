@@ -6,4 +6,5 @@
     <li><a href="advanced_css/index.html" target="_blank">advanced css</a></li>
     <li><a href="adv_css/index.html" target="_blank">adv css</a></li>
     <li><a href="responsive_design/index.html" target="_blank">Responsive Design</a></li>
+    <li><a href="final_project/index.html" target="_blank">Final Project</a></li>
  </ul>

@@ -1,0 +1,303 @@
+body img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border: 2px solid #000000;
+}
+
+body {
+        background: url(https://wallpapers.com/images/hd/the-hogwarts-houses-900-x-1829-wallpaper-7gxke7yi8cml3y0z.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      
+}
+
+header p {
+    color: #D9AC68;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px #1f0f22;
+}
+#container {
+    background-color: #8d8d8d8c;
+    padding: 20px;
+    width: 75%;
+    margin: 0 auto;
+    border: 5px solid #D9AC68;
+    border-style: outset;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px 5px #1f0f22;
+
+}
+
+/* Mobile Styles */
+nav {
+    
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    background-color: #6d1f1f;
+    border: 4px inset #D9AC68;
+    text-align: center;
+    margin: 5px 0; 
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    color: #D9AC68;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px 5px #1f0f22;
+}
+
+ main img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+p {
+    padding: auto;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #D9AC68;
+    text-decoration: none;
+}
+
+ h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px 5px #1f0f22;
+}
+
+h3 {
+    text-align: center;
+    margin: 2px 2px 2px auto;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-shadow: 2px 2px 5px #1f0f22;
+}
+
+#lower {
+    display: block;
+}
+
+.col {
+    padding: 50px;
+    background-color: #6d1f1fe1;
+    border: 5px inset #D9AC68;
+    width: 50%;
+    margin: 15px;
+    text-align: center;
+}
+
+.col ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.col li {
+    display: inline-block;
+}
+
+.col li a:hover {
+    color: #D9AC68;
+    text-decoration: none;
+}
+
+.col li a {
+    color: white;
+    margin-right: 2px;
+    margin-left: 2px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.col img {
+    display: block;
+    padding: 0;
+    width: 100%;
+    border: none;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+hr {
+    width: 95%;
+    color: #D9AC68;
+}
+
+.button {
+    color: white;
+    background-color: #6d1f1f;
+    border: 4px inset #D9AC68;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+
+  .button li a:hover {
+    color: #D9AC68;
+    text-decoration: none;
+}
+
+/* tablet styles */
+
+@media(min-width: 786px) {
+   
+    body {
+        background: url(https://images8.alphacoders.com/760/760721.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      
+}
+    #lower {
+        display: flex;
+    }
+    main img{
+        width: 50%;
+        margin: 30px auto;
+        border: none;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        width: 85px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    main p {
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .col {
+        padding: 0px;
+    }
+
+    .col img {
+        display: block;
+        padding: 10px;
+        width: 70%;
+        border: none;
+    }
+
+    .button {
+        color: white;
+        background-color: #6d1f1f;
+        border: 4px inset #D9AC68;
+        padding: 20px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+      }
+
+}
+
+/* desktop styles */
+
+    @media(min-width: 1024px) {
+        nav li a {
+            width: 120px;
+            margin: 5px;
+            padding: px;
+        }
+
+        header h1 {
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .col li a {
+            font-size: 20px;
+        }
+    }
